@@ -141,7 +141,7 @@ main{
    top: 100px;
    width: 350px;
    padding-top: 100px;
-   padding-bottom: 700px;
+
    background-color: #116062;
    color: #f6f0b7;
 
@@ -197,6 +197,7 @@ margin-bottom: 0;
     text-decoration: none;  
     transition: color 0.5s;
     background-color:  #116062 ;
+ 
 
 }
 
@@ -208,7 +209,7 @@ margin-bottom: 0;
   
   margin: 0;
    width: 350px;
-  
+     position: relative;
    background-color: #116062;
    color: #f6f0b7;
    display: flex;
