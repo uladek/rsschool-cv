@@ -130,7 +130,7 @@ main{
 
 
   .main-container{
- 
+    min-width: 500px;
    top:0;
    margin-left: 350px;
 
@@ -140,8 +140,9 @@ main{
   float: left;
    top: 100px;
    width: 350px;
-   padding-top: 100px;
 
+   padding-top: 100px;
+padding-bottom: 800px;
    background-color: #116062;
    color: #f6f0b7;
 
@@ -209,6 +210,7 @@ margin-bottom: 0;
   
   margin: 0;
    width: 350px;
+   min-width: 350px;
      position: relative;
    background-color: #116062;
    color: #f6f0b7;
@@ -244,5 +246,6 @@ margin-bottom: 0;
   @media (max-width: 768px) {
     .section {
       width: 100%;
+  
     }
   }
