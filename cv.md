@@ -1,4 +1,4 @@
-#Uladzimir Hrydzin
+# Uladzimir Hrydzin
 ******************
 
 ##### _Contacts_:
@@ -24,7 +24,7 @@ I'm a good photographer. I am a very active and friendly person. I like  photo, 
 * Adobe Photoshop
 * Adobe Lightroom
 
-====
+___
 ##### _Code Examples_
 
 ```
