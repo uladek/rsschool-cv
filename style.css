@@ -7,12 +7,12 @@ body {
     font: inherit;
     vertical-align: baseline;
     outline: none;
-  }
-  /* html { 
+}
+/* html { 
     height: 101%; 
 } always display scrollbars */
-  /* body {
-     font-size: 62.5%;
+/* body {
+    font-size: 62.5%;
     line-height: 1;
     font-family: Arial, sans-serif; 
 } */ 
