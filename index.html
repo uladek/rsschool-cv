@@ -47,7 +47,7 @@
                                 <!-- <li class="contact-item"><p><span class="media-object">&phone;</span> <a href="tel:+375447258597"> +375(44)7258597</a></p></li> -->
                                 <li class="contact-item"><p><img class="mail" src="./src/mobile.svg"  width="25" height="25" alt="mobile">  <a href="tel:+375447258597"> +375(44)7258597</a></p></li>
                                 <!-- <li class="contact-item"> <img class="contact" src="./src/mail.svg"  width="25" height="25" alt="email">  <p><b>Email:</b> <a href="mailto:hrydzin@gmail.com">hrydzin@gmail.com</a></p></li> -->
-                                <li class="contact-item"> <img class="mail" src="./src/mail.svg"  width="25" height="25" alt="email"> <a href="mailto:hrydzin@gmail.com">hrydzin@gmail.com</a></p></li>
+                                <li class="contact-item"> <img class="mail" src="./src/mail.svg"  width="25" height="25" alt="email"> <a href="mailto:hrydzin@gmail.com">hrydzin@gmail.com</a></li>
                                 <!-- <li class="contact-item"><p><b>Discord:</b> @uladek</p></li> -->
                                 <li class="contact-item"><p><img class="mail" src="./src/discord.svg"  width="25" height="25" alt="discord">  @uladek</p></li>
                                 <!-- <li class="contact-item"><p><b>GitHub:</b> <a href="https://github.com/uladek">uladek</a></p></li> -->
@@ -100,16 +100,16 @@
                 function getTimeOfDay() {
                     const date = new Date();
                     const hours = date.getHours();
-                    if (hours >= 0 && hours < 6) {
+                    if (hours >= 0 && hours &lt; 6) {
                         return ("night");
                     }
-                    else if (hours >= 6 && hours < 12) {
+                    else if (hours >= 6 && hours &lt; 12) {
                         return ("morning");
                     }
-                    else if (hours >= 12 && hours < 18) {
+                    else if (hours >= 12 && hours &lt; 18) {
                         return ("afternoon");
                     }
-                    else if (hours >= 18 && hours < 24) {
+                    else if (hours >= 18 && hours &lt; 24) {
                         return ("evening");
                     }
                 }
