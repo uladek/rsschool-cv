@@ -1,4 +1,4 @@
- html,
+html,
 body {
     width: 1440px;
     margin: 0 auto;
@@ -10,11 +10,9 @@ body {
     vertical-align: baseline;
     /* outline: none; */
     /* height: 100%; */
-    
-
 }
 
- html { 
+html { 
     height: 101%; 
 } 
 /* always display scrollbars  */
@@ -32,12 +30,12 @@ body {
 
 * {
     box-sizing: border-box;
- }
+}
 
 .container {
     /* max-width: 1440px; */
     margin: 0 auto;
-  }
+}
 
 .header-container{
     display: flex;
@@ -95,7 +93,7 @@ body {
     }
 
 .nav-item a:hover{
-   color: #274b69;
+color: #274b69;
     }
 
 
@@ -118,13 +116,13 @@ body {
     margin-left: 350px;
     }
 
- h1{
+h1{
     font-size: 60px;
     color: #274b69;
     display: flex;
     justify-content:center;
     margin-right: 0;
-   display: flex;
+    display: flex;
 /* justify-content: right; */
     top: 100px;
     margin-left: 100px;
@@ -154,18 +152,18 @@ pre{
 .section {
     padding:20px 30px;
     } 
- /* .projects-wrapper{
+/* .projects-wrapper{
     display: flex;
     flex-direction: row;
  } */
- .cv{
+.cv{
     display: inline;
     width: 100px;
     margin: 0;
     cursor: pointer;
- }
- 
- .cv a {
+}
+
+.cv a {
     color:#f6f0b7;
     text-decoration: none;  
     transition: color 0.5s;
@@ -192,8 +190,6 @@ pre{
     font-size: 1.3em;
 }
 
-
-
     /*  A S I D E */
 .aside-container{
     /* max-height:  100%; */
@@ -209,7 +205,7 @@ pre{
 .contact-item{
     list-style-type: none;
     } 
-  
+
 .mail{
     margin-bottom: -7px;
     }
@@ -265,5 +261,3 @@ pre{
     padding-bottom:  10px;
     margin-right: 70px;
     }    
-
-    
