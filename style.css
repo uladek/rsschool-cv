@@ -50,7 +50,6 @@ body {
 
 .oval-photo{
     position: relative;
-    /* position: absolute; */
     border-radius: 50%;
     box-shadow: 0 0 9px #666;
 }
@@ -59,10 +58,8 @@ body {
 .nav-list {
     margin-left: 3rem;
     display: flex;
-    /* justify-content: flex-end; */
     list-style: none;
     position: relative;
-    /* min-width: 500px; */
     right: 10%;
     cursor: pointer;
     font-size: .8rem;
@@ -100,10 +97,7 @@ body {
     /* M A I N */
 .main-container{
     color: #116062;
-    /* min-width: 500px; */
-  /* width: 100%; */
     top: 0;
-    /* margin-left: 350px; */
     }
 
 h1{
@@ -114,7 +108,6 @@ h1{
     margin-right: 0;
     display: flex;
     top: 100px;
-    margin-left: 100px;
     letter-spacing: .1rem;
     border-radius: 7px;
     line-height: 70px;
@@ -126,7 +119,7 @@ h2{
     letter-spacing: .2rem;
 }
 
-pre{
+pre {
     left: 0;
     padding: 30px 80px 30px 0;
     font-size: 20px;
@@ -139,7 +132,6 @@ pre{
 .section {
     padding:20px 30px;
     width: 100%;
-
     }
 
 .cv{
@@ -172,10 +164,10 @@ pre{
     font-size: 30px;
 }
 
-.blue-text,
-.green{
+.blue-text {
+    /* background-color: #ff7f50; */
     color: #274b69;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
     /*  A S I D E */
@@ -186,25 +178,23 @@ pre{
 }
 
 .certificate {
-    color:#274b69;
+    color: #116062;
     position: absolute;
     margin-top: -2rem;
     margin-left: 2rem;
-    /* font-size: rem; */
     transition: color 0.5s;
     cursor: pointer;
+    }
+    .certificate:hover {
+    color: black;
     }
 
 
 .aside-container {
     padding-top: 130px;
     flex-grow: 1;
-    /* float: left; */
     min-width: 350px;
-    /* padding-left: 20px; */
     color: #f6f0b7;
-    /* height: 200%; Установите высоту равной 100% */
-    /* height: inherit; */
     background-color: #274b69;
 
 
@@ -243,7 +233,7 @@ pre{
     color: #f6f0cf;
     text-decoration: none;
     transition: color 0.5s;
-    background-color:#274b69;
+    background-color: #274b69;
     }
 
 .copyright a:hover {
