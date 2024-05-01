@@ -11,7 +11,7 @@ body {
 }
 
 html {
-    height: 101%;
+    height: 100%;
 }
 
 body {
@@ -35,42 +35,41 @@ body {
     display: flex;
     justify-content: space-between;
     height: 100px;
-    max-width: 100%;
+    width: 100%;
     background-color:white;
     }
 
 .avatar{
     background-color: #274b69;
-    width: 350px;
-    height: 200px;
-    margin: 0;
-    padding-top: 30px;
-    padding-left: 205px;
+    height: 100%;
     min-width: 350px;
-    display: flex;
-    margin-bottom: 30px;
-    }
+    margin:  0;
+    padding: 30px 50px;
+
+}
 
 .oval-photo{
-    position: absolute;
+    position: relative;
+    /* position: absolute; */
     border-radius: 50%;
-    box-shadow: 0 0 7px #666;
-    float: right;
+    box-shadow: 0 0 9px #666;
 }
 
 /*  N A V */
 .nav-list {
+    margin-left: 3rem;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     list-style: none;
     position: relative;
-    min-width: 500px;
-    right: 30px;
+    /* min-width: 500px; */
+    right: 10%;
     cursor: pointer;
+    font-size: .8rem;
     }
 
 .nav-link{
-    padding: 0 10px;
+    padding: 0 7px;
     line-height: 50px;
     transition: .3s;
     cursor: pointer;
@@ -173,33 +172,36 @@ pre{
     font-size: 30px;
 }
 
+.blue-text,
 .green{
     color: #274b69;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
     /*  A S I D E */
 
 .section-title-courses {
     margin-left: -2rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .certificate {
     color:#274b69;
     position: absolute;
     margin-top: -2rem;
-    font-size: .8rem;
+    margin-left: 2rem;
+    /* font-size: rem; */
     transition: color 0.5s;
     cursor: pointer;
     }
 
 
 .aside-container {
+    padding-top: 130px;
     flex-grow: 1;
-    float: left;
+    /* float: left; */
     min-width: 350px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     color: #f6f0b7;
     /* height: 200%; Установите высоту равной 100% */
     /* height: inherit; */
@@ -210,11 +212,21 @@ pre{
 
 .contact-item{
     list-style-type: none;
+    margin-left: -1rem;
     }
 
 .mail{
     margin-bottom: -7px;
-    }
+}
+
+.me-github {
+    margin-left: 1rem;
+    margin-bottom: -.3rem;
+
+
+}
+
+
 
 .footer-container{
     display: flex;
@@ -255,6 +267,11 @@ pre{
     margin-right: 20px;
     align-items: center;
     }
+
+/* .me-github {
+    margin-left: 1rem;
+
+    } */
 
 .rss {
     /* background-image: url(/rs_school_js.svg); */
