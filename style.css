@@ -23,6 +23,16 @@ body {
     box-sizing: border-box;
 }
 
+.title-bg {
+    background-color: #274b69;
+    color: #f6f0b7;
+    padding: 3px 10px;
+    font-size: 1.5rem;
+    border-radius: 3px;
+}
+
+/* #f6f0b7 */
+
 .container {
     margin: 0 auto;
     width: 100%;
@@ -30,25 +40,23 @@ body {
     display: flex;
 }
 
-
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     height: 100px;
     width: 100%;
-    background-color:white;
-    }
-
-.avatar{
-    background-color: #274b69;
-    height: 100%;
-    min-width: 350px;
-    margin:  0;
-    padding: 30px 50px;
-
+    background-color: white;
 }
 
-.oval-photo{
+.avatar {
+    background-color: #274b69;
+    height: 100%;
+    min-width: 390px;
+    margin: 0;
+    padding: 30px 67px;
+}
+
+.oval-photo {
     position: relative;
     border-radius: 50%;
     box-shadow: 0 0 9px #666;
@@ -63,26 +71,26 @@ body {
     right: 10%;
     cursor: pointer;
     font-size: .8rem;
-    }
+}
 
-.nav-link{
+.nav-link {
     padding: 0 7px;
     line-height: 50px;
     transition: .3s;
     cursor: pointer;
-    }
+}
 
 .nav-item a {
-    color:#116062;
+    color: #116062;
     font-size: 1.5em;
     text-decoration: none;
     transition: color 0.5s;
     cursor: pointer;
-    }
+}
 
-.nav-item a:hover{
-  color: #274b69;
-    }
+.nav-item a:hover {
+    color: #274b69;
+}
 
 .section-item a {
     color: #f6f0b7;
@@ -92,29 +100,28 @@ body {
 
 .section-item a:hover {
     color: #ff7f50;
-    }
+}
 
-    /* M A I N */
-.main-container{
+/* M A I N */
+.main-container {
     color: #116062;
     top: 0;
-    }
+}
 
-h1{
+h1 {
     font-size: 60px;
     color: #274b69;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-right: 0;
-    display: flex;
     top: 100px;
     letter-spacing: .1rem;
     border-radius: 7px;
     line-height: 70px;
-    }
+}
 
-h2{
-    padding-left: 20ox;
+h2 {
+    padding-left: 20px;
     font-size: 30px;
     letter-spacing: .2rem;
 }
@@ -123,18 +130,18 @@ pre {
     left: 0;
     padding: 30px 80px 30px 0;
     font-size: 20px;
-    background-color: #274b69 ;
-    color:  #f6f0b7;
-    width:100%;
+    background-color: #274b69;
+    color: #f6f0b7;
+    width: 100%;
     margin-bottom: 0;
-    }
+}
 
 .section {
-    padding:20px 30px;
+    padding: 20px 30px;
     width: 100%;
-    }
+}
 
-.cv{
+.cv {
     display: inline;
     width: 100px;
     margin: 0;
@@ -142,22 +149,24 @@ pre {
 }
 
 .cv a {
-    color:#f6f0b7;
+    color: #f6f0b7;
     text-decoration: none;
     transition: color 0.5s;
     background-color: #274b69;
     border-radius: 7%;
     cursor: pointer;
-    }
+}
+
 .cv a:active {
     color: #ff7f50;
-    background-color:#116062;
-    }
-    .cv a:hover {
-        color: #ff7f50;
-        }
+    background-color: #116062;
+}
 
-.border-cv{
+.cv a:hover {
+    color: #ff7f50;
+}
+
+.border-cv {
     border: 2px solid #274b69;
     padding: 5px;
     margin-left: 20px;
@@ -165,60 +174,77 @@ pre {
 }
 
 .blue-text {
-    /* background-color: #ff7f50; */
     color: #274b69;
     font-size: 1.1em;
 }
 
-    /*  A S I D E */
+
+
+/* A S I D E */
+
+.p-edecation {
+    margin-top: -1rem;
+}
+
+.education {
+    margin-left: 1.5rem;
+}
 
 .section-title-courses {
     margin-left: -2rem;
     margin-bottom: 1rem;
 }
 
+.li-courses {
+    margin-bottom: 2rem;
+
+}
+
+.color-courses {
+    margin-left: -2.1rem;
+    font-size: 1.1rem;
+}
+
 .certificate {
-    color: #116062;
+    color: #f6f0b7;
     position: absolute;
-    margin-top: -2rem;
-    margin-left: 2rem;
+    margin-top: -1.8rem;
+font-size: 1rem;
     transition: color 0.5s;
     cursor: pointer;
-    }
-    .certificate:hover {
-    color: black;
-    }
+}
 
+.certificate:hover {
+    color: #ff7f50;
+}
+
+.blue-link {
+    color: #274b69;
+}
 
 .aside-container {
     padding-top: 130px;
     flex-grow: 1;
-    min-width: 350px;
+    min-width: 390px;
     color: #f6f0b7;
     background-color: #274b69;
-
-
 }
 
-.contact-item{
+.contact-item {
     list-style-type: none;
     margin-left: -1rem;
-    }
+}
 
-.mail{
+.mail {
     margin-bottom: -7px;
 }
 
 .me-github {
     margin-left: 1rem;
     margin-bottom: -.3rem;
-
-
 }
 
-
-
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -227,49 +253,43 @@ pre {
     width: 100%;
     font-size: 24px;
     top: 0;
-    }
+}
 
 .copyright a {
     color: #f6f0cf;
     text-decoration: none;
     transition: color 0.5s;
     background-color: #274b69;
-    }
+}
 
 .copyright a:hover {
     color: #ff7f50;
-    }
+}
 
-.copyright{
+.copyright {
     margin: 0;
     width: 350px;
-    min-width: 350px;
+    min-width: 390px;
     position: relative;
-    background-color:#274b69;
+    background-color: #274b69;
     color: #f6f0b7;
     display: flex;
     justify-content: space-around;
     list-style: none;
     align-items: center;
-    }
+}
 
-.github{
+.github {
     margin-right: 20px;
     align-items: center;
-    }
-
-/* .me-github {
-    margin-left: 1rem;
-
-    } */
+}
 
 .rss {
-    /* background-image: url(/rs_school_js.svg); */
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
     width: 200px;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
     margin-right: 70px;
-    }
+}
