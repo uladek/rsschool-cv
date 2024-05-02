@@ -1,3 +1,10 @@
+:root {
+    --green: #116062;
+    --blue: #274b69;
+    --yellow: #f6f0b7;
+    --accent-color: #ff7f50;
+}
+
 html,
 body {
     max-width: 1440px;
@@ -24,14 +31,12 @@ body {
 }
 
 .title-bg {
-    background-color: #274b69;
-    color: #f6f0b7;
+    background-color: var(--blue);
+    color: var(--yellow);
     padding: 3px 10px;
     font-size: 1.5rem;
     border-radius: 3px;
 }
-
-/* #f6f0b7 */
 
 .container {
     margin: 0 auto;
@@ -49,7 +54,7 @@ body {
 }
 
 .avatar {
-    background-color: #274b69;
+    background-color: var(--blue);
     height: 100%;
     min-width: 390px;
     margin: 0;
@@ -62,7 +67,6 @@ body {
     box-shadow: 0 0 9px #666;
 }
 
-/*  N A V */
 .nav-list {
     margin-left: 3rem;
     display: flex;
@@ -81,7 +85,7 @@ body {
 }
 
 .nav-item a {
-    color: #116062;
+    color: var(--green);
     font-size: 1.5em;
     text-decoration: none;
     transition: color 0.5s;
@@ -89,28 +93,27 @@ body {
 }
 
 .nav-item a:hover {
-    color: #274b69;
+    color: var(--blue);
 }
 
 .section-item a {
-    color: #f6f0b7;
+    color: var(--yellow);
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .section-item a:hover {
-    color: #ff7f50;
+    color: var(--accent-color);
 }
 
-/* M A I N */
 .main-container {
-    color: #116062;
+    color: var(--green);
     top: 0;
 }
 
 h1 {
     font-size: 60px;
-    color: #274b69;
+    color: var(--blue);
     display: flex;
     justify-content: center;
     margin-right: 0;
@@ -130,8 +133,8 @@ pre {
     left: 0;
     padding: 30px 80px 30px 0;
     font-size: 20px;
-    background-color: #274b69;
-    color: #f6f0b7;
+    background-color: var(--blue);
+    color: var(--yellow);
     width: 100%;
     margin-bottom: 0;
 }
@@ -149,38 +152,46 @@ pre {
 }
 
 .cv a {
-    color: #f6f0b7;
+    color: var(--yellow);
     text-decoration: none;
     transition: color 0.5s;
-    background-color: #274b69;
+    background-color: var(--blue);
     border-radius: 7%;
     cursor: pointer;
 }
 
 .cv a:active {
-    color: #ff7f50;
-    background-color: #116062;
+    color: var(--accent-color);
+    background-color: var(--green);
 }
 
 .cv a:hover {
-    color: #ff7f50;
+    color: var(--accent-color);
 }
 
 .border-cv {
-    border: 2px solid #274b69;
+    border: 2px solid var(--blue);
     padding: 5px;
     margin-left: 20px;
     font-size: 30px;
 }
 
 .blue-text {
-    color: #274b69;
+    color: var(--blue);
     font-size: 1.1em;
+    margin-left: 1rem;
 }
 
+.soft-skills {
+    display: flex;
+    list-style-type: none;
+    gap: .5rem;
+    margin-left: -1rem;
+}
 
-
-/* A S I D E */
+.skills-text {
+    font-size: 1.2em;
+}
 
 .p-edecation {
     margin-top: -1rem;
@@ -197,7 +208,6 @@ pre {
 
 .li-courses {
     margin-bottom: 2rem;
-
 }
 
 .color-courses {
@@ -206,28 +216,32 @@ pre {
 }
 
 .certificate {
-    color: #f6f0b7;
+    color: var(--yellow);
     position: absolute;
     margin-top: -1.8rem;
-font-size: 1rem;
+    font-size: 1rem;
     transition: color 0.5s;
     cursor: pointer;
 }
 
 .certificate:hover {
-    color: #ff7f50;
+    color: var(--accent-color);
 }
 
 .blue-link {
-    color: #274b69;
+    color: var(--blue);
+}
+
+.blue-link:hover {
+    color: var(--green);
 }
 
 .aside-container {
     padding-top: 130px;
     flex-grow: 1;
     min-width: 390px;
-    color: #f6f0b7;
-    background-color: #274b69;
+    color: var(--yellow);
+    background-color: var(--blue);
 }
 
 .contact-item {
@@ -256,14 +270,14 @@ font-size: 1rem;
 }
 
 .copyright a {
-    color: #f6f0cf;
+    color: var(--yellow);
     text-decoration: none;
     transition: color 0.5s;
-    background-color: #274b69;
+    background-color: var(--blue);
 }
 
 .copyright a:hover {
-    color: #ff7f50;
+    color: var(--accent-color);
 }
 
 .copyright {
@@ -271,8 +285,8 @@ font-size: 1rem;
     width: 350px;
     min-width: 390px;
     position: relative;
-    background-color: #274b69;
-    color: #f6f0b7;
+    background-color: var(--blue);
+    color: var(--yellow);
     display: flex;
     justify-content: space-around;
     list-style: none;
