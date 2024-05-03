@@ -38,9 +38,6 @@ body {
     border-radius: 3px;
 }
 
-/* .title-projects {
-    text-decoration: underline;
-} */
 
 .container {
     margin: 0 auto;
@@ -152,20 +149,15 @@ pre {
 
 .projects-wrapper {
 
-    /* background-color: var(--blue); */
-    /* color: var(--yellow); */
     list-style-type: none;
     padding: 1rem 4rem ;
-    /* text-decoration: none; */
-
 }
 
 
 .cv {
+    max-width: max-content;
 
-    font-size: 1.2rem;
-    /* display: inline; */
-    /* width: 100px; */
+    font-size: 1.1rem;
     margin: 0;
     cursor: pointer;
     transition: 1s;
@@ -173,10 +165,10 @@ pre {
 }
 
 .cv a {
-    color: var(--blue);
-    /* color: var(--yellow); */
+    background-color: var(--blue);
+    padding: .1rem .8rem;
+    color: white;
     text-decoration: none;
-    /* background-color: var(--blue); */
     border-radius: 7%;
     cursor: pointer;
 
@@ -188,7 +180,7 @@ pre {
 } */
 
 .cv a:hover {
-    color: var(--green);
+    background-color: var(--green);
     margin-left: 2px;
     transition: 1s;
 
@@ -212,7 +204,6 @@ pre {
 }
 
 .soft-skills {
-    /* display: flex; */
     list-style-type: none;
     gap: .5rem;
     margin-left: -1rem;
