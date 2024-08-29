@@ -166,10 +166,10 @@ pre {
 
 .cv a {
     background-color: var(--blue);
-    padding: .1rem .8rem;
+    padding: .2rem .8rem;
     color: white;
     text-decoration: none;
-    border-radius: 7%;
+    border-radius: 11px;
     cursor: pointer;
 
 }
@@ -180,10 +180,17 @@ pre {
 } */
 
 .cv a:hover {
-    background-color: var(--green);
+    /* background-color: var(--green); */
+    background-color: #378BA4;
+
+
     margin-left: 2px;
     transition: 1s;
 
+}
+.project-span {
+    padding-left: 1rem;
+    color: #81BECE;
 }
 
 /* .border-cv {
@@ -197,6 +204,7 @@ pre {
     color: var(--blue);
     font-size: 1.1em;
     margin-left: 1rem;
+    /* text-indent:1rem; */
 }
 
 .about{
