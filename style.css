@@ -174,16 +174,10 @@ pre {
 
 }
 
-/* .cv a:active {
-    color: var(--accent-color);
-    background-color: var(--green);
-} */
+
 
 .cv a:hover {
-    /* background-color: var(--green); */
     background-color: #378BA4;
-
-
     margin-left: 2px;
     transition: 1s;
 
@@ -193,18 +187,11 @@ pre {
     color: #81BECE;
 }
 
-/* .border-cv {
-    border: 2px solid var(--blue);
-    padding: 5px;
-    margin-left: 20px;
-    font-size: 30px;
-} */
 
 .blue-text {
     color: var(--blue);
     font-size: 1.1em;
     margin-left: 1rem;
-    /* text-indent:1rem; */
 }
 
 .about{
