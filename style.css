@@ -85,6 +85,32 @@ body {
     cursor: pointer;
 }
 
+
+.nav-link-summary {
+    padding: 0 7px;
+    color: var(--blue);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-link-summary:hover {
+    color: var(--green)
+}
+
+.nav-item-summary {
+    color: var(--blue);
+    /* font-size: 1.5em; */
+    text-decoration: none;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.nav-item-summary a:hover {
+    color: var(--green)
+
+}
+
 .nav-item a {
     color: var(--green);
     font-size: 1.5em;
@@ -194,9 +220,9 @@ pre {
     margin-left: 1rem;
 }
 
-.about{
+/* .about{
     margin-bottom: -1rem;
-}
+} */
 
 .soft-skills {
     list-style-type: none;
